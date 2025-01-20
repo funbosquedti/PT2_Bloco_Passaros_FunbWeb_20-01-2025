@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funbosque</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- versão de desenvolvimento, inclui avisos úteis no console  -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <header class="header">
+    </header>
+        <main class="main">
+            <section class="fundo">
+                <div class="logo-container" style="text-align: center;">
+                    <img src="imagens/logo-funbosque.png" alt="Logo Funbosque" width="150" height="200">
+                </div>
+            </section>
+            <header class="header"></header>
+            <div class="text-center">
+                <div id="globais">
+                    <h1>Bloco dos Pássaros</h1>
+                    <h2>{{instrucoes_4}}</h2>
+                    
+                </div>
+                
+            </div>
+            <hr class="custom-hr">
+            <section class="content">
+                <!--SALA ARAÇARI-->
+                <a href="sala_aracari.html" class="card">
+                    <img src="imagens/sala_aracari.jpeg" alt="Departamentos">
+                    <div class="container">
+                        <h2><b>Araçari</b></h2>
+                    </div>
+                </a>
+                <!--SALA BEIJA-FLOR-->
+                <a href="sala_beijaFlor.html" class="card">
+                    <img src="imagens/sala_beija-flor.jpg" alt="HelpDesk">
+                    <div class="container">
+                        <h2><b>Beija-Flor</b></h2>
+                    </div>
+                </a>
+                <!--SALA BEM-TE-VI-->
+                <a href="sala_bemTeVI.html" class="card">
+                    <img src="imagens/sala_bemTeVi.jpg" alt="manutencao_equipamentos">
+                    <div class="container">
+                        <h2><b>Bem-Te-Vi</b></h2>
+                    </div>
+                </a>
+            </section> 
+            <section class="content">
+                <!--SALA PIPIRA-->
+                <a href="sala_pipira.html" class="card">
+                    <img src="imagens/sala_pipira.jpg" alt="Em Desenvolvimento">
+                    <div class="container">
+                        <h2><b>Pipira</b></h2>
+                    </div>
+                </a>
+                <!--SALA SABIÁ-->
+                <a href="sala_sabia.html" class="card">
+                    <img src="imagens/sala_sabia.jpg" alt="Em Desenvolvimento">
+                    <div class="container">
+                        <h2><b>Sabiá</b></h2>
+                    </div>
+                </a>       
+                <hr class="custom-hr">
+            </section> 
+            <div style="height: 600px;"></div> <!-- ajuste a altura conforme necessário --> 
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <footer class="footer">
+        <p>&copy; 2024 Departamento de Tecnologia da Informação (DTI) - Funbosque <a href = "#">Sobre</p>
+    </footer>
+</body>
+</html>
